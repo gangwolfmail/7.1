@@ -43,9 +43,9 @@
 
 //=================================
 
-// const btnElem = document.querySelector('.js-magic-btn');
+const btnElem = document.querySelector('.js-magic-btn');
 // const btnElem = document.querySelector('[disabled]');
-// console.log(btnElem);
+console.log(btnElem);
 
 // const firstLiElem = document.querySelector('ul>li');
 // console.log(firstLiElem);

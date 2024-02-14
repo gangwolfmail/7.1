@@ -22,14 +22,16 @@
  * - has(ім'я-атрибута)
  */
 
-// const imageList = document.querySelectorAll('.hero__image');
+const imageList = document.querySelectorAll('.hero__image');
 
-// console.log(imageList);
-// imageList.forEach(imageElem => {
-//   const index = imageElem.getAttribute('index');
-//   const url = `https://source.unsplash.com/500x500/?random=${index}&eat,bread,dish,meet,egg`;
-//   imageElem.setAttribute('src', url);
-// });
+console.log(imageList);
+
+imageList.forEach((imageElem, index) => {
+  //   const index = imageElem.getAttribute('index');
+
+  const url = `https://source.unsplash.com/500x500/?random=${index}&eat,bread,dish,meet,egg`;
+  imageElem.setAttribute('src', url);
+});
 
 // const imageElem = document.querySelector('[data-image]');
 
